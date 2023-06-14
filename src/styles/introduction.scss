@@ -1,6 +1,5 @@
 @import "./style.scss";
 
-
 .introduction {
   background-color: $color-black;
   display: flex;
@@ -20,7 +19,7 @@
     margin-top: 1rem;
 
     span.genre {
-      margin-left: 5rem;
+      margin-left: 6rem;
       color: $color-wheat;
     }
 
@@ -30,14 +29,8 @@
     }
   }
 
-  div.resume_cv-wrapper {
-    button {
-      text-transform: capitalize;
-      margin-top: 1rem;
-      margin-right: 0.5em;
-    }
-    .button-cv{
-      width: 4.5em;
-    }
+  button {
+    text-transform: capitalize;
+    margin-top: 1.5rem;
   }
 }
