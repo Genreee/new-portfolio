@@ -1,0 +1,43 @@
+@import "./style.scss";
+
+
+.introduction {
+  background-color: $color-black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+
+  img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+  }
+
+  p {
+    text-transform: capitalize;
+    margin-top: 1rem;
+
+    span.genre {
+      margin-left: 5rem;
+      color: $color-wheat;
+    }
+
+    span.frontend-developer {
+      color: $color-white;
+      font-size: xx-large;
+    }
+  }
+
+  div.resume_cv-wrapper {
+    button {
+      text-transform: capitalize;
+      margin-top: 1rem;
+      margin-right: 0.5em;
+    }
+    .button-cv{
+      width: 4.5em;
+    }
+  }
+}

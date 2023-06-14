@@ -7,16 +7,17 @@ header {
   ul {
     display: flex;
     list-style-type: none;
-    padding: 0.5rem;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
     justify-content: end;
   }
   li {
-    margin-right: 3rem;
+    margin-right: 2rem;
+    text-transform: capitalize;
   }
     a{
         color: $color-white;
     }
     a:hover{
-        color: $color-lightblue;
+        color: $color-wheat;
     }
 }

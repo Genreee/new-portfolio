@@ -3,10 +3,16 @@ $color-white: #ffffff;
 $color-green: green;
 $color-red: red;
 $color-lightblue: #add8e6;
+$color-whitesmoke: #f5f5f5;
+$color-wheat: wheat;
 
+@import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 * {
   margin: 0;
   line-height: calc(1em + 0.5rem);
+  color: $color-wheat;
+  font-family: "Bagel Fat One", cursive;
 }
 
 html {
@@ -37,11 +43,10 @@ svg {
 
 button {
   display: inline-block;
-  padding: 0;
-  border: none;
-  background: none;
+  padding: 0.5em;
+  background-color: $color-wheat;
+  color: $color-black;
   cursor: pointer;
-  color: inherit;
 }
 
 a {
