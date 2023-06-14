@@ -11,9 +11,15 @@ const Introduction = () => {
       </p>
 
       <div className="resume_cv-wrapper">
-        <button className="button-resume">resume</button>
-        <button className="button-cv">cv</button>
+        <a href="/Genreglennresume.pdf" download="Genreglennresume.pdf">
+          <button className="button-resume">resume</button>
+        </a>
+        <a href="/Genreglenncv.pdf" download="Genreglenncv.pdf">
+          <button className="button-cv">cv</button>
+        </a>
       </div>
+
+
     </div>
   );
 };
