@@ -1,0 +1,22 @@
+@import "./style.scss";
+
+header {
+  background-color: $color-black;
+  color: $color-white;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0.5rem;
+    justify-content: end;
+  }
+  li {
+    margin-right: 3rem;
+  }
+    a{
+        color: $color-white;
+    }
+    a:hover{
+        color: $color-lightblue;
+    }
+}
