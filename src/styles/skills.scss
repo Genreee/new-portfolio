@@ -1,0 +1,20 @@
+@import "./style.scss";
+
+.skills {
+  background-color: $color-black;
+  padding-left: 6rem;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    color: $color-white;
+    margin-bottom: 2em;
+  }
+
+  .skills-title {
+    font-size: x-large;
+    color: $color-wheat;
+    margin-bottom: 1em;
+    text-transform: capitalize;
+  }
+}

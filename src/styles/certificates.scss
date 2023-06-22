@@ -1,0 +1,45 @@
+@import "./style.scss";
+
+.certificates {
+  background-color: $color-black;
+  padding-left: 6rem;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    color: $color-white;
+    margin-bottom: 0.5em;
+  }
+
+  .certificates-title {
+    font-size: x-large;
+    color: $color-wheat;
+    margin-bottom: 1em;
+    text-transform: capitalize;
+  }
+
+  .certificates-box {
+    display: flex;
+    justify-content: center;
+    margin-right: 5em;
+
+    img {
+      width: 20em;
+      height: 10em;
+    }
+
+    .slider {
+      display: flex;
+     
+    }
+
+    img{
+      max-height: 80vh;
+    }
+
+    .zoomed {
+      transform: scale(1.4);
+      transition: transform 0.3s ease;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import "./style.scss";
+
+.services-wrapper {
+  display: flex;
+  
+
+  .services {
+    background-color: $color-black;
+    padding-left: 6rem;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      color: $color-white;
+      margin-bottom: 0.5em;
+    }
+
+    .services-title {
+      font-size: x-large;
+      color: $color-wheat;
+      margin-bottom: 1em;
+      text-transform: capitalize;
+    }
+  }
+}

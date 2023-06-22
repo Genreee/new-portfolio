@@ -1,0 +1,26 @@
+@import "./style.scss";
+
+.about {
+  background-color: $color-black;
+  display: flex;
+  justify-content: space-around;
+
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      color: $color-white;
+    }
+
+    .about-title {
+      font-size: x-large;
+      color: $color-wheat;
+      margin-bottom: 1em;
+      text-transform: capitalize;
+    }
+  }
+  // img{
+
+  //  }
+}
