@@ -1,0 +1,49 @@
+@import "./style.scss";
+
+.tech-stack {
+  background-color: $color-black;
+  padding-left: 6rem;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    color: $color-white;
+    margin-bottom: 0.5em;
+  }
+
+  .tech-stack-title {
+    font-size: x-large;
+    color: $color-wheat;
+    margin-bottom: 1em;
+    text-transform: capitalize;
+  }
+
+  .tech-stack-ul-wrapper {
+    display: flex;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 1em;
+    list-style-type: none;
+    flex: 1;
+  }
+
+  li {
+    font-size: large;
+  }
+
+  li::before {
+    content: "";
+    margin-left: 2.5em;
+  }
+
+  img {
+    max-height: 1.5em;
+    max-width: 1.5em;
+    position: absolute;
+    margin: -1.5em 0;
+  }
+}
