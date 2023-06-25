@@ -61,7 +61,7 @@ const Techstack = () => {
           <li className="about__list">
             <img
               className="about__icon-img"
-              src="/SCSS-icon.jpg"
+              src="/SCSS-icon.png"
               alt="SCSS icon"
             />
             SCSS
