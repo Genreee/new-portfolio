@@ -8,6 +8,48 @@ const Projects = () => {
         <div className="projects-wrapper container">
           <h2 className="projects-title">projects</h2>
 
+          <h3>new portfolio &#40;featured&#41;</h3>
+          <p>
+            This project represents the culmination of my knowledge and skills,
+            combining ReactJS and SCSS to create my best work yet.
+          </p>
+
+          <div className="projects-ul-wrapper">
+            <p>tech-used</p>
+            <ul>
+              <li>
+                <img src="HTML5-icon.png" alt="" />
+                HTML 5
+              </li>
+              <li>
+                <img src="SCSS-icon.png" alt="" />
+                SCSS
+              </li>
+              <li>
+                <img src="JavaScript-icon.png" alt="" />
+                javascript
+              </li>
+              <li>
+                <img src="ReactJS-icon.png" alt="" />
+                ReactJS
+              </li>
+            </ul>
+
+            <a href="https://new-portfolio-alpha-ten.vercel.app/">
+              https://new-portfolio-alpha-ten.vercel.app/
+            </a>
+            <a href="https://github.com/Genreee/new-portfolio">
+              <button>source code</button>
+            </a>
+          </div>
+        </div>
+        <img src="new-portfolio.png" alt="" />
+      </div>
+
+      <div className="projects container section">
+        <div className="projects-wrapper container">
+          <h2 className="projects-title">projects</h2>
+
           <h3>TVIV</h3>
           <p>
             I have recently completed my first independent project after
@@ -38,7 +80,7 @@ const Projects = () => {
             <a href="https://genre-movies.vercel.app/">
               https://genre-movies.vercel.app/
             </a>
-            <a href="https://genre-movies.vercel.app/">
+            <a href="https://github.com/Genreee/genre-movies">
               <button>source code</button>
             </a>
           </div>
@@ -48,8 +90,6 @@ const Projects = () => {
 
       <div className="projects container section">
         <div className="projects-wrapper container">
-          
-
           <h3>old portfolio</h3>
           <p>
             I created this as my first project, and while I learned a lot during
@@ -77,10 +117,10 @@ const Projects = () => {
               </li>
             </ul>
 
-            <a href="https://portfolio-genre.vercel.app/">
-              https://portfolio-genre.vercel.app/
+            <a href="https://old-portfolio-genre.vercel.app/">
+              https://old-portfolio-genre.vercel.app/
             </a>
-            <a href="https://genre-movies.vercel.app/">
+            <a href="https://github.com/Genreee/Old-Portfolio-Genre">
               <button>source code</button>
             </a>
           </div>

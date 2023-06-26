@@ -12,6 +12,11 @@ const About = () => {
           Philippines, a 22 years old specialized in <br /> building beautiful
           and professional looking website
         </p>
+
+        <p className="visit-link">you can visit my repositories@</p>
+        <a href="https://github.com/Genreee?tab=repositories">
+          https://github.com/Genreee?tab=repositories
+        </a>
       </div>
       <img src="about.jpg" alt="about picture" />
     </div>
