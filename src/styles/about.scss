@@ -4,6 +4,7 @@
   background-color: $color-black;
   display: flex;
   justify-content: space-around;
+  border-top: 1px solid $color-white;
 
   .about-wrapper {
     display: flex;
@@ -14,7 +15,7 @@
     }
 
     p.visit-link {
-      margin-top: 3rem;
+      margin-top: 1.5rem;
       font-size: smaller;
     }
 

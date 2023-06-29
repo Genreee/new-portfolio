@@ -4,7 +4,7 @@ import "../styles/style.scss";
 const About = () => {
   return (
     <div className="about container section">
-      <div className="about-wrapper">
+      <div className="about-wrapper section">
         <h2 className="about-title">about</h2>
 
         <p>

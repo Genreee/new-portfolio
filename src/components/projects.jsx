@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className="projects-main-wrapper container">
       <div className="projects container section">
-        <div className="projects-wrapper container">
+        <div className="projects-wrapper container section">
           <h2 className="projects-title">projects</h2>
 
           <h3>new portfolio &#40;featured&#41;</h3>
@@ -48,7 +48,7 @@ const Projects = () => {
 
       <div className="projects container section">
         <div className="projects-wrapper container">
-          <h2 className="projects-title">projects</h2>
+         
 
           <h3>TVIV</h3>
           <p>
