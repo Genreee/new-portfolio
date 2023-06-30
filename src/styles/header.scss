@@ -1,9 +1,6 @@
 @import "./style.scss";
 
 header {
-  background-color: $color-black;
-  color: $color-white;
-
   ul {
     display: flex;
     list-style-type: none;
@@ -14,10 +11,21 @@ header {
     margin-right: 2rem;
     text-transform: capitalize;
   }
-    a{
-        color: $color-white;
+
+  button {
+    background-color: inherit;
+    border: none;
+
+    img {
+      width: 1em;
     }
-    a:hover{
-        color: $color-wheat;
-    }
+  }
+
+  a{
+    color: $color-white;
+  }
+
+  a:hover {
+    color: $color-wheat;
+  }
 }

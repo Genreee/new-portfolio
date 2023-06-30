@@ -38,7 +38,7 @@ const Introduction = () => {
           resume/CV
         </button>
       </div>
-      
+
     </div>
   );
 };

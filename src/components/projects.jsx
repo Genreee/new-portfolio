@@ -3,12 +3,12 @@ import "../styles/style.scss";
 
 const Projects = () => {
   return (
-    <div className="projects-main-wrapper container">
+    <div id="projects" className="projects-main-wrapper container">
       <div className="projects container section">
         <div className="projects-wrapper container section">
-          <h2 className="projects-title">projects</h2>
+          <h2 className="projects-title titles">projects</h2>
 
-          <h3>new portfolio &#40;featured&#41;</h3>
+          <h3 className="project-h3">new portfolio &#40;featured&#41;</h3>
           <p>
             This project represents the culmination of my knowledge and skills,
             combining ReactJS and SCSS to create my best work yet.
@@ -48,9 +48,7 @@ const Projects = () => {
 
       <div className="projects container section">
         <div className="projects-wrapper container">
-         
-
-          <h3>TVIV</h3>
+          <h3 className="project-h3">TVIV</h3>
           <p>
             I have recently completed my first independent project after
             developing my <br /> skills through online learning resources,
@@ -90,7 +88,7 @@ const Projects = () => {
 
       <div className="projects container section">
         <div className="projects-wrapper container">
-          <h3>old portfolio</h3>
+          <h3 className="project-h3">old portfolio</h3>
           <p>
             I created this as my first project, and while I learned a lot during
             its development,

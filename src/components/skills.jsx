@@ -6,9 +6,9 @@ import Techstack from "./tech-stack";
 
 const Skills = () => {
   return (
-    <div className="skills-wrapper container section">
+    <div id="skills" className="skills-wrapper container section">
       <div className="skills container section">
-        <h2 className="skills-title">skills</h2>
+        <h2 className="skills-title titles">skills</h2>
 
         <p>
           Proficient in HTML, CSS, and SCSS framework, with excellent knowledge
@@ -21,11 +21,10 @@ const Skills = () => {
         <p>Familiarity with front-end frameworks like React JS.</p>
         <p>
           Strong problem-solving and analytical skills, meticulous attention to
-          detail, and excellent communication and collaboration
-          abilities.
+          detail, and excellent communication and collaboration abilities.
         </p>
       </div>
-      <Techstack/>
+      <Techstack />
     </div>
   );
 };

@@ -1,7 +1,6 @@
 @import "./style.scss";
 
 .tech-stack {
-  background-color: $color-black;
   padding-left: 6rem;
   display: flex;
   flex-direction: column;
@@ -13,7 +12,6 @@
 
   .tech-stack-title {
     font-size: x-large;
-    color: $color-wheat;
     margin-bottom: 1em;
     text-transform: capitalize;
   }

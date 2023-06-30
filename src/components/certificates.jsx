@@ -13,7 +13,7 @@ const Certificates = () => {
 
   return (
     <div className="certificates container section">
-      <h2 className="certificates-title">certificates</h2>
+      <h2 className="certificates-title titles">certificates</h2>
 
       <div className="certificates-box">
         <ImageSlider images={images} />

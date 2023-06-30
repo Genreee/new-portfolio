@@ -5,18 +5,21 @@ $color-red: red;
 $color-lightblue: #add8e6;
 $color-whitesmoke: #f5f5f5;
 $color-wheat: wheat;
+$color-yellow: yellow;
 
 @import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 * {
   margin: 0;
   line-height: calc(1em + 0.5rem);
-  color: $color-wheat;
   font-family: "Bagel Fat One", cursive;
+  
 }
 
-body{
-    background-color: $color-black;
+body {
+  background-color: $color-black;
+  color: $color-white;
 }
 
 html {
@@ -56,6 +59,14 @@ button {
 }
 
 a {
-  color: $color-red;
   text-decoration: none;
+  color: red;
+}
+
+.titles , .project-h3 {
+  color: $color-black;
+  background-color: wheat;
+  width: fit-content;
+  padding: 0.4em;
+  margin-bottom: 0.5em;
 }

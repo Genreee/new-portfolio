@@ -5,20 +5,18 @@
     border-top: 1px solid $color-white;
 
   .skills {
-    background-color: $color-black;
     padding-left: 6rem;
     display: flex;
     flex-direction: column;
 
     p {
-      color: $color-white;
+      
       margin-bottom: 2em;
       font-size: smaller;
     }
 
     .skills-title {
       font-size: x-large;
-      color: $color-wheat;
       margin-bottom: 1em;
       text-transform: capitalize;
     }

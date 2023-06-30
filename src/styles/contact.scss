@@ -2,24 +2,21 @@
 
 .contact-wrapper {
   display: flex;
-    border-top: 1px solid $color-white;
-    border-bottom: 1px solid $color-white;
+  border-top: 1px solid $color-white;
+  border-bottom: 1px solid $color-white;
 
   .contact {
-    background-color: $color-black;
     padding-left: 6rem;
     display: flex;
     flex-direction: column;
-    
+
     p {
-      color: $color-white;
       margin-bottom: 2em;
       font-size: smaller;
     }
 
     .contact-title {
       font-size: x-large;
-      color: $color-wheat;
       margin-bottom: 1em;
       text-transform: capitalize;
     }

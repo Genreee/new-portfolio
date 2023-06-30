@@ -1,24 +1,38 @@
 import "../styles/header.scss";
 import "../styles/style.scss";
+import ImageToggle from "./darkmode";
 
 const Header = () => {
   return (
     <header className="container">
       <ul>
         <li>
-          <a href="#">about</a>
+          <ImageToggle />
         </li>
         <li>
-          <a href="#">service</a>
+          <a className="anchor" href="#about">
+            about
+          </a>
         </li>
         <li>
-          <a href="#">skills</a>
+          <a className="anchor" href="#services">
+            services
+          </a>
         </li>
         <li>
-          <a href="#">projects</a>
+          <a className="anchor" href="#skills">
+            skills
+          </a>
         </li>
         <li>
-          <a href="#">contact</a>
+          <a className="anchor" href="#projects">
+            projects
+          </a>
+        </li>
+        <li>
+          <a className="anchor" href="#contact">
+            contact
+          </a>
         </li>
       </ul>
     </header>

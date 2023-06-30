@@ -1,7 +1,7 @@
 @import "./style.scss";
 
 .introduction {
-  background-color: $color-black;
+ 
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -21,11 +21,11 @@
 
     span.genre {
       margin-left: 6rem;
-      color: $color-wheat;
+      
     }
 
     span.frontend-developer {
-      color: $color-white;
+     
       font-size: xx-large;
     }
   }

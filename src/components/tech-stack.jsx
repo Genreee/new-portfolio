@@ -4,7 +4,7 @@ import "../styles/style.scss";
 const Techstack = () => {
   return (
     <div className="tech-stack container section">
-      <h2 className="tech-stack-title">tech-stack</h2>
+      <h2 className="tech-stack-title titles">tech-stack</h2>
 
       <div class="tech-stack-ul-wrapper">
         <ul className="about__ul">
