@@ -35,7 +35,7 @@ const Projects = () => {
               </li>
             </ul>
 
-            <a href="https://new-portfolio-alpha-ten.vercel.app/">
+            <a href="index.html">
               https://new-portfolio-alpha-ten.vercel.app/
             </a>
             <a href="https://github.com/Genreee/new-portfolio">
