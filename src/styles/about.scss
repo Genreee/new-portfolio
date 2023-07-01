@@ -4,14 +4,12 @@
   display: flex;
   border-top: 1px solid $color-white;
   margin-left: 1rem;
-  
 
   .about-wrapper {
     display: flex;
     flex-direction: column;
     padding-left: 6rem;
     padding-right: 8rem;
-  
 
     p.visit-link {
       margin-top: 1.5rem;
@@ -33,7 +31,7 @@
 @media (max-width: 990px) {
   .about {
     .about-wrapper {
-   padding-right: 1rem;
+      padding-right: 1rem;
     }
   }
 }
@@ -44,12 +42,13 @@
     justify-content: center;
     .about-wrapper {
       align-items: center;
-      padding-left: 0;
-    padding-right: 0;
-    font-size: small;
+      padding-left: 6rem;
+      padding-right: 6rem;
+      font-size: small;
+      text-align: center;
     }
 
-    a{
+    a {
       font-size: x-small;
     }
   }

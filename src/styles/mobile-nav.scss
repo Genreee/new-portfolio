@@ -1,0 +1,50 @@
+@import "./style.scss";
+
+.menu {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: none;
+
+  img {
+    width: 2.5rem;
+  }
+}
+
+.mobile-nav {
+  display: none;
+  &.show {
+    display: block;
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+}
+
+@media (max-width: 748px) {
+  .menu {
+    display: block;
+    background-color: inherit;
+    border: none;
+
+    img {
+      width: 2.5rem;
+    }
+  }
+
+  .mobile-nav {
+    display: none;
+
+    a {
+      color: $color-white;
+    }
+
+    a:hover {
+      color: $color-wheat;
+    }
+  }
+}

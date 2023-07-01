@@ -12,6 +12,8 @@ function ImageToggle() {
   const updateTheme = (isLightMode) => {
     const body = document.body;
     const anchors = document.getElementsByClassName("anchor");
+    const anchornav = document.getElementsByClassName("anchornav");
+
     const elements = document.getElementsByClassName("element");
     const borders = document.querySelectorAll(
       ".about, .services-wrapper, .skills-wrapper, .projects, .contact-wrapper"
@@ -22,6 +24,7 @@ function ImageToggle() {
       body.style.color = "black";
       for (let i = 0; i < anchors.length; i++) {
         anchors[i].style.color = "black";
+        anchornav[i].style.color = "black";
       }
       for (let i = 0; i < borders.length; i++) {
         borders[i].style.borderColor = "black";
@@ -31,6 +34,7 @@ function ImageToggle() {
       body.style.color = "white";
       for (let i = 0; i < anchors.length; i++) {
         anchors[i].style.color = "white";
+        anchornav[i].style.color = "white";
       }
       for (let i = 0; i < borders.length; i++) {
         borders[i].style.borderColor = "white";

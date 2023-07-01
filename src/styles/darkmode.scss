@@ -1,0 +1,18 @@
+@import "./style.scss";
+
+.darkmode-btn {
+  img {
+    width: 1.5rem;
+  }
+}
+
+@media (max-width: 748px) {
+  .darkmode-btn {
+    position: relative;
+    left: 8.5rem;
+
+    img {
+      width: 1.5rem;
+    }
+  }
+}

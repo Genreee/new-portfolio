@@ -18,7 +18,7 @@ header {
     border: none;
 
     img {
-      width: 1em;
+      width: 1.5em;
     }
   }
 
@@ -29,4 +29,10 @@ header {
   a:hover {
     color: $color-wheat;
   }
+}
+
+@media (max-width: 748px) {
+  .anchor {
+display: none;
+}
 }
