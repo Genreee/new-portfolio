@@ -1,7 +1,8 @@
 @import "./style.scss";
 
 .certificates {
-  padding-left: 6rem;
+  padding-left: 1rem;
+  margin-right: 1rem;
   display: flex;
   flex-direction: column;
 
@@ -40,4 +41,15 @@
       transition: transform 0.3s ease;
     }
   }
+}
+
+  @media (max-width: 748px) {
+  .certificates {
+    align-items: center;
+
+    .certificates-box{
+      margin-right: 0;
+    }
+  }
+  
 }

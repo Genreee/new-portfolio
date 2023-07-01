@@ -18,7 +18,10 @@ const Skills = () => {
           7 months of experience in JavaScript, including version control with
           Git, GitHub, and build tools like Vite.
         </p>
-        <p>Familiarity with front-end frameworks like React JS.</p>
+        <p>
+          Familiarity with front-end frameworks like React JS. gasp with components,
+          useStates, and Dom manipulation.
+        </p>
         <p>
           Strong problem-solving and analytical skills, meticulous attention to
           detail, and excellent communication and collaboration abilities.

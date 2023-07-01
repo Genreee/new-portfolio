@@ -2,7 +2,7 @@
 
 .skills-wrapper {
   display: flex;
-    border-top: 1px solid $color-white;
+  border-top: 1px solid $color-white;
 
   .skills {
     padding-left: 6rem;
@@ -10,7 +10,6 @@
     flex-direction: column;
 
     p {
-      
       margin-bottom: 2em;
       font-size: smaller;
     }
@@ -19,6 +18,19 @@
       font-size: x-large;
       margin-bottom: 1em;
       text-transform: capitalize;
+    }
+  }
+}
+
+@media (max-width: 748px) {
+  .skills-wrapper {
+    flex-wrap: wrap;
+
+    .skills {
+      padding-left: 4rem;
+      padding-right: 4rem;
+      align-items: center;
+      font-size: small;
     }
   }
 }

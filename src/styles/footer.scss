@@ -23,3 +23,19 @@
     user-select: none;
   }
 }
+
+
+@media (max-width: 748px) {
+.footer{
+    .footer-title{
+    font-size: xx-small;
+    }
+    .footer-title-span{
+font-size: xx-small;
+    }
+    .footer-description{
+        font-size: xx-small;
+    }
+
+}
+}

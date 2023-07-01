@@ -9,7 +9,7 @@ const Projects = () => {
           <h2 className="projects-title titles">projects</h2>
 
           <h3 className="project-h3">new portfolio &#40;featured&#41;</h3>
-          <p>
+          <p className="p-new-portfolio">
             This project represents the culmination of my knowledge and skills,
             combining ReactJS and SCSS to create my best work yet.
           </p>
@@ -18,32 +18,30 @@ const Projects = () => {
             <p>tech-used</p>
             <ul>
               <li>
-                <img src="HTML5-icon.png" alt="" />
+                <img src="HTML5-icon.png" alt="HTML5 icon png" />
                 HTML 5
               </li>
               <li>
-                <img src="SCSS-icon.png" alt="" />
+                <img src="SCSS-icon.png" alt="SCSS icon png" />
                 SCSS
               </li>
               <li>
-                <img src="JavaScript-icon.png" alt="" />
+                <img src="JavaScript-icon.png" alt="JavaScript icon png" />
                 javascript
               </li>
               <li>
-                <img src="ReactJS-icon.png" alt="" />
+                <img src="ReactJS-icon.png" alt="ReactJS icon png" />
                 ReactJS
               </li>
             </ul>
 
-            <a href="index.html">
-              https://new-portfolio-alpha-ten.vercel.app/
-            </a>
+            <a href="index.html">https://new-portfolio-alpha-ten.vercel.app/</a>
             <a href="https://github.com/Genreee/new-portfolio">
               <button>source code</button>
             </a>
           </div>
         </div>
-        <img src="new-portfolio.png" alt="" />
+        <img src="new-portfolio.png" alt="new-portfolio website screenshot" />
       </div>
 
       <div className="projects container section">
@@ -62,15 +60,15 @@ const Projects = () => {
             <p>tech-used</p>
             <ul>
               <li>
-                <img src="HTML5-icon.png" alt="" />
+                <img src="HTML5-icon.png" alt="HTML5 icon png" />
                 HTML 5
               </li>
               <li>
-                <img src="CSS-icon.png" alt="" />
+                <img src="CSS-icon.png" alt="CSS icon png" />
                 CSS 3
               </li>
               <li>
-                <img src="JavaScript-icon.png" alt="" />
+                <img src="JavaScript-icon.png" alt="JavaScript icon png" />
                 javascript
               </li>
             </ul>
@@ -83,7 +81,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <img src="project-1.png" alt="" />
+        <img src="project-1.png" alt="Genre movie website screenshot" />
       </div>
 
       <div className="projects container section">
@@ -102,15 +100,15 @@ const Projects = () => {
             <p>tech-used</p>
             <ul>
               <li>
-                <img src="HTML5-icon.png" alt="" />
+                <img src="HTML5-icon.png" alt="HTML5 icon png" />
                 HTML 5
               </li>
               <li>
-                <img src="CSS-icon.png" alt="" />
+                <img src="CSS-icon.png" alt="CSS icon png" />
                 CSS 3
               </li>
               <li>
-                <img src="JavaScript-icon.png" alt="" />
+                <img src="JavaScript-icon.png" alt="JavaScript icon png" />
                 javascript
               </li>
             </ul>
@@ -123,7 +121,10 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <img src="new-portfolio-screenshot.png" alt="" />
+        <img
+          src="new-portfolio-screenshot.png"
+          alt="new-portfolio-screenshot png"
+        />
       </div>
     </div>
   );

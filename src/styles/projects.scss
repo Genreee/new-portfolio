@@ -5,18 +5,19 @@
   flex-direction: column;
 
   .projects {
-    padding-left: 6rem;
     display: flex;
     border-top: 1px solid $color-white;
 
     img {
       width: 20rem;
-      margin-right: 10rem;
+      padding-left: 1rem;
+      margin-right: 1rem;
     }
 
     .projects-wrapper {
       display: flex;
       flex-direction: column;
+      padding-left: 6rem;
 
       h3 {
         text-transform: capitalize;
@@ -68,6 +69,37 @@
             text-transform: capitalize;
           }
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 748px) {
+  .projects-main-wrapper {
+   
+
+    .projects {
+      flex-wrap: wrap;
+       justify-content: center;
+
+      .projects-wrapper {
+        align-items: center;
+          padding: 0 3rem 0 3rem;
+          font-size: small;
+        text-align: center;
+
+        .p-new-portfolio {
+          padding: 0 5rem 0 5rem;
+        }
+      }
+
+      .projects-ul-wrapper {
+        align-items: center;
+
+        
+    a{
+      font-size: x-small;
+    }
       }
     }
   }

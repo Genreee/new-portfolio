@@ -2,8 +2,8 @@
 
 .back-to-top-button {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 1.25rem;
+  right: 1.25rem;
   padding: 10px 15px;
   background-color: $color-wheat;
   border: none;
@@ -11,8 +11,10 @@
   cursor: pointer;
   transition: background-color 0.3s;
 
+
   img{
     width: 2rem;
+    
   }
 
 }

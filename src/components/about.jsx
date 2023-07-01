@@ -18,7 +18,7 @@ const About = () => {
           https://github.com/Genreee?tab=repositories
         </a>
       </div>
-      <img src="about.jpg" alt="about picture" />
+      <img src="about.jpg" alt="Genre's picture " />
     </div>
   );
 };

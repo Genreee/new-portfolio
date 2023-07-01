@@ -6,6 +6,9 @@
   align-items: center;
   margin-top: 4rem;
   gap: 1rem;
+  margin-right: 1rem;
+  padding-left: 1rem;
+  
 
   button {
     text-transform: capitalize;
@@ -16,9 +19,17 @@
     list-style-type: none;
     padding: 0;
     gap: 0.5em;
+    
 
     img {
       width: 1.5rem;
     }
+  }
+}
+
+@media (max-width: 748px) {
+  .contact-icons {
+    padding-left: 0;
+    
   }
 }

@@ -4,7 +4,7 @@ import "../styles/style.scss";
 const Introduction = () => {
   function confirmDownload() {
     alert(
-      "Hello, if you would like to review my resume and/or CV\nplease contact me to get the password."
+      "Hello, if you would like to view my resume and/or CV\nplease contact me to get the password."
     );
 
     var password = prompt("Please enter the password:");

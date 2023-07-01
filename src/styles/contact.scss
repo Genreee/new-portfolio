@@ -22,3 +22,16 @@
     }
   }
 }
+
+@media (max-width: 748px) {
+  .contact-wrapper {
+    flex-wrap: wrap;
+
+    .contact {
+      align-items: center;
+      text-align: center;
+      padding: 0 5rem 0 5rem;
+      font-size: small;
+    }
+  }
+}

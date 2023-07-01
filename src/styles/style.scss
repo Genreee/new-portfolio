@@ -14,7 +14,6 @@ $color-yellow: yellow;
   margin: 0;
   line-height: calc(1em + 0.5rem);
   font-family: "Bagel Fat One", cursive;
-  
 }
 
 body {
@@ -30,6 +29,8 @@ html {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  overflow-x: hidden;
+  
 }
 
 .section {
@@ -56,6 +57,7 @@ button {
   background-color: $color-wheat;
   color: $color-black;
   cursor: pointer;
+  
 }
 
 a {
@@ -63,7 +65,8 @@ a {
   color: red;
 }
 
-.titles , .project-h3 {
+.titles,
+.project-h3 {
   color: $color-black;
   background-color: wheat;
   width: fit-content;

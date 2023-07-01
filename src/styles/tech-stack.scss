@@ -1,9 +1,10 @@
 @import "./style.scss";
 
 .tech-stack {
-  padding-left: 6rem;
+  padding-left: 1rem;
   display: flex;
   flex-direction: column;
+  margin-right: 1rem;
 
   p {
     color: $color-white;
@@ -43,5 +44,13 @@
     max-width: 1.5em;
     position: absolute;
     margin: -1.5em 0;
+  }
+}
+
+
+@media (max-width: 748px) {
+  .tech-stack {
+     align-items: center;
+     font-size: small;
   }
 }

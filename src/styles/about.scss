@@ -2,23 +2,55 @@
 
 .about {
   display: flex;
-  justify-content: space-around;
   border-top: 1px solid $color-white;
+  margin-left: 1rem;
+  
 
   .about-wrapper {
     display: flex;
     flex-direction: column;
+    padding-left: 6rem;
+    padding-right: 8rem;
+  
 
     p.visit-link {
       margin-top: 1.5rem;
       font-size: smaller;
     }
 
-
     .about-title {
       font-size: x-large;
       margin-bottom: 1em;
       text-transform: capitalize;
+    }
+  }
+  img {
+    padding-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .about {
+    .about-wrapper {
+   padding-right: 1rem;
+    }
+  }
+}
+
+@media (max-width: 748px) {
+  .about {
+    flex-wrap: wrap;
+    justify-content: center;
+    .about-wrapper {
+      align-items: center;
+      padding-left: 0;
+    padding-right: 0;
+    font-size: small;
+    }
+
+    a{
+      font-size: x-small;
     }
   }
 }
