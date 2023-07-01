@@ -57,6 +57,7 @@
 
             img {
               width: 4em;
+              padding-left: 0;
             }
           }
         }
@@ -76,16 +77,14 @@
 
 @media (max-width: 748px) {
   .projects-main-wrapper {
-   
-
     .projects {
       flex-wrap: wrap;
-       justify-content: center;
+      justify-content: center;
 
       .projects-wrapper {
         align-items: center;
-          padding: 0 3rem 0 3rem;
-          font-size: small;
+        padding: 0 3rem 0 3rem;
+        font-size: small;
         text-align: center;
 
         .p-new-portfolio {
@@ -96,10 +95,9 @@
       .projects-ul-wrapper {
         align-items: center;
 
-        
-    a{
-      font-size: x-small;
-    }
+        a {
+          font-size: x-small;
+        }
       }
     }
   }

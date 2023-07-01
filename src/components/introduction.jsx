@@ -30,7 +30,7 @@ const Introduction = () => {
       <img src="./profile.jpg" alt="" />
       <p>
         <span className="genre">hi! im genre</span> <br />
-        <span className="frontend-developer">frontend developer</span>
+        <span className="frontend-developer">react frontend dev</span>
       </p>
 
       <div className="resume_cv-wrapper">

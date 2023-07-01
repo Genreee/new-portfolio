@@ -20,8 +20,7 @@
   .certificates-box {
     display: flex;
     justify-content: center;
-    margin-right: 5em;
-
+    margin-right: auto;
     img {
       width: 20em;
       height: 10em;
@@ -29,10 +28,9 @@
 
     .slider {
       display: flex;
-     
     }
 
-    img{
+    img {
       max-height: 80vh;
     }
 
@@ -43,13 +41,12 @@
   }
 }
 
-  @media (max-width: 748px) {
+@media (max-width: 748px) {
   .certificates {
     align-items: center;
 
-    .certificates-box{
+    .certificates-box {
       margin-right: 0;
     }
   }
-  
 }
