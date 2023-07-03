@@ -12,7 +12,7 @@ const Skills = () => {
 
         <p>
           Proficient in HTML, CSS, and SCSS framework, with excellent knowledge
-          of structured and responsive design principles
+          of structured and responsive design principles.
         </p>
         <p>
           7 months of experience in JavaScript, including version control with

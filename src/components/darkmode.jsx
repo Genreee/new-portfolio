@@ -22,6 +22,17 @@ function ImageToggle() {
     if (isLightMode) {
       body.style.backgroundColor = "white";
       body.style.color = "black";
+
+      for (let i = 0; i < anchors.length; i++) {
+        anchors[i].addEventListener("mouseenter", function () {
+          this.style.color = "wheat";
+        });
+
+        anchors[i].addEventListener("mouseleave", function () {
+          this.style.color = "black";
+        });
+      }
+
       for (let i = 0; i < anchors.length; i++) {
         anchors[i].style.color = "black";
         anchornav[i].style.color = "black";
@@ -38,6 +49,16 @@ function ImageToggle() {
       }
       for (let i = 0; i < borders.length; i++) {
         borders[i].style.borderColor = "white";
+      }
+
+      for (let i = 0; i < anchors.length; i++) {
+        anchors[i].addEventListener("mouseenter", function () {
+          this.style.color = "wheat";
+        });
+
+        anchors[i].addEventListener("mouseleave", function () {
+          this.style.color = "white";
+        });
       }
     }
   };

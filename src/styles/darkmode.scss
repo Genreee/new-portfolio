@@ -1,6 +1,7 @@
 @import "./style.scss";
 
 .darkmode-btn {
+  padding-top: 0;
   img {
     width: 1.5rem;
   }
@@ -10,6 +11,7 @@
   .darkmode-btn {
     position: relative;
     left: 8.5rem;
+    padding-top: 0.5rem;
 
     img {
       width: 1.5rem;

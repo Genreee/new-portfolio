@@ -10,7 +10,7 @@ const About = () => {
         <p>
           I am a passionate Frontend Web Developer from Negros <br /> Occidental
           Philippines, a 22 years old specialized in <br /> building beautiful
-          and professional looking website
+          and professional looking web applications.
         </p>
 
         <p className="visit-link">you can visit my repositories@</p>
