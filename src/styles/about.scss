@@ -1,11 +1,11 @@
 @import "./style.scss";
 
-.about {
+.about-wrapper {
   display: flex;
   border-top: 1px solid $color-white;
   margin-left: 1rem;
 
-  .about-wrapper {
+  .about {
     display: flex;
     flex-direction: column;
     padding-left: 6rem;
@@ -29,18 +29,18 @@
 }
 
 @media (max-width: 990px) {
-  .about {
-    .about-wrapper {
+  .about-wrapper {
+    .about {
       padding-right: 1rem;
     }
   }
 }
 
 @media (max-width: 748px) {
-  .about {
+  .about-wrapper {
     flex-wrap: wrap;
     justify-content: center;
-    .about-wrapper {
+    .about {
       align-items: center;
       padding-left: 6rem;
       padding-right: 6rem;

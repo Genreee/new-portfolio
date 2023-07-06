@@ -4,8 +4,8 @@ import "../styles/style.scss";
 const Projects = () => {
   return (
     <div id="projects" className="projects-main-wrapper container">
-      <div className="projects container section">
-        <div className="projects-wrapper container section">
+      <div className="projects-wrapper container section">
+        <div className="projects container section">
           <h2 className="projects-title titles">projects</h2>
 
           <h3 className="project-h3">new portfolio &#40;featured&#41;</h3>
@@ -44,8 +44,8 @@ const Projects = () => {
         <img src="new-portfolio.png" alt="new-portfolio website screenshot" />
       </div>
 
-      <div className="projects container section">
-        <div className="projects-wrapper container">
+      <div className="projects-wrapper container section">
+        <div className="projects container">
           <h3 className="project-h3">TVIV</h3>
           <p>
             I have recently completed my first independent project after
@@ -84,8 +84,8 @@ const Projects = () => {
         <img src="project-1.png" alt="Genre movie website screenshot" />
       </div>
 
-      <div className="projects container section">
-        <div className="projects-wrapper container">
+      <div className="projects-wrapper container section">
+        <div className="projects container">
           <h3 className="project-h3">old portfolio</h3>
           <p>
             I created this as my first project, and while I learned a lot during

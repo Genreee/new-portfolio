@@ -16,7 +16,7 @@ function ImageToggle() {
 
     const elements = document.getElementsByClassName("element");
     const borders = document.querySelectorAll(
-      ".about, .services-wrapper, .skills-wrapper, .projects, .contact-wrapper"
+      ".about-wrapper, .services-wrapper, .skills-wrapper, .projects-wrapper, .contact-wrapper"
     );
 
     if (isLightMode) {

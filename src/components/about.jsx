@@ -3,8 +3,8 @@ import "../styles/style.scss";
 
 const About = () => {
   return (
-    <div id="about" className="about container section">
-      <div className="about-wrapper section">
+    <div id="about" className="about-wrapper container section">
+      <div className="about section">
         <h2 className="about-title titles">about</h2>
 
         <p>
