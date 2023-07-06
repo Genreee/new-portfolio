@@ -1,7 +1,6 @@
 @import "./style.scss";
 
 .certificates {
-  padding-left: 1rem;
   margin-right: 1rem;
   display: flex;
   flex-direction: column;
@@ -21,6 +20,7 @@
     display: flex;
     justify-content: center;
     margin-right: auto;
+
     img {
       width: 20em;
       height: 10em;
